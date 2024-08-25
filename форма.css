@@ -1,0 +1,55 @@
+. .text-container img{
+    width: 100px;
+}
+style {
+    margin: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0;
+    width: 15%;
+    height: 100%;
+    background-color: rgb(21, 255, 0);
+    position: fixed;
+    overflow: auto;
+}
+li a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: rgb(255, 115, 0);
+}
+.content {
+    margin-left: 15%;
+    padding: 1px 20px;
+}
+.active {
+    background-color: rgb(0, 255, 21);
+    color: rgb(255, 123, 0);
+}
+
+li a:hover {
+    background-color: rgb(17, 222, 230);
+    color: rgb(0, 255, 21);
+}
+
+body {
+    background-color: rgb(0, 217, 255);
+}
+.text-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-bloks {
+    width: 30%;
+    font-size: 20px;
+}
+.bool {
+    padding-top: 100px;
+    padding-bottom: 150px;
+    text-align: center;
+    font-size: 30px;
+}
